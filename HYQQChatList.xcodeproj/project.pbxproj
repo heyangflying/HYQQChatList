@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A699291B86D43C00C18CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699281B86D43C00C18CFE /* main.m */; };
+		18A6992C1B86D43C00C18CFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6992B1B86D43C00C18CFE /* AppDelegate.m */; };
+		18A699321B86D43C00C18CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A699301B86D43C00C18CFE /* Main.storyboard */; };
+		18A699341B86D43C00C18CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A699331B86D43C00C18CFE /* Images.xcassets */; };
+		18A699371B86D43C00C18CFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A699351B86D43C00C18CFE /* LaunchScreen.xib */; };
+		18A699431B86D43C00C18CFE /* HYQQChatListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699421B86D43C00C18CFE /* HYQQChatListTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A6993D1B86D43C00C18CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A6991B1B86D43C00C18CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A699221B86D43C00C18CFE;
+			remoteInfo = HYQQChatList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A699231B86D43C00C18CFE /* HYQQChatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYQQChatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A699271B86D43C00C18CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A699281B86D43C00C18CFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A6992A1B86D43C00C18CFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		18A6992B1B86D43C00C18CFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		18A699311B86D43C00C18CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A699331B86D43C00C18CFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		18A699361B86D43C00C18CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18A6993C1B86D43C00C18CFE /* HYQQChatListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYQQChatListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A699411B86D43C00C18CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A699421B86D43C00C18CFE /* HYQQChatListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYQQChatListTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A699201B86D43C00C18CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A699391B86D43C00C18CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A6991A1B86D43C00C18CFE = {
+			isa = PBXGroup;
+			children = (
+				18A699251B86D43C00C18CFE /* HYQQChatList */,
+				18A6993F1B86D43C00C18CFE /* HYQQChatListTests */,
+				18A699241B86D43C00C18CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A699241B86D43C00C18CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A699231B86D43C00C18CFE /* HYQQChatList.app */,
+				18A6993C1B86D43C00C18CFE /* HYQQChatListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A699251B86D43C00C18CFE /* HYQQChatList */ = {
+			isa = PBXGroup;
+			children = (
+				18A6994F1B86D49D00C18CFE /* Other */,
+				18A6994E1B86D47E00C18CFE /* C */,
+				18A6994D1B86D47200C18CFE /* V */,
+				18A6994C1B86D46300C18CFE /* M */,
+				18A699261B86D43C00C18CFE /* Supporting Files */,
+			);
+			path = HYQQChatList;
+			sourceTree = "<group>";
+		};
+		18A699261B86D43C00C18CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A699271B86D43C00C18CFE /* Info.plist */,
+				18A699281B86D43C00C18CFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A6993F1B86D43C00C18CFE /* HYQQChatListTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A699421B86D43C00C18CFE /* HYQQChatListTests.m */,
+				18A699401B86D43C00C18CFE /* Supporting Files */,
+			);
+			path = HYQQChatListTests;
+			sourceTree = "<group>";
+		};
+		18A699401B86D43C00C18CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A699411B86D43C00C18CFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A6994C1B86D46300C18CFE /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		18A6994D1B86D47200C18CFE /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		18A6994E1B86D47E00C18CFE /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		18A6994F1B86D49D00C18CFE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18A6992A1B86D43C00C18CFE /* AppDelegate.h */,
+				18A6992B1B86D43C00C18CFE /* AppDelegate.m */,
+				18A699301B86D43C00C18CFE /* Main.storyboard */,
+				18A699331B86D43C00C18CFE /* Images.xcassets */,
+				18A699351B86D43C00C18CFE /* LaunchScreen.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A699221B86D43C00C18CFE /* HYQQChatList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A699461B86D43C00C18CFE /* Build configuration list for PBXNativeTarget "HYQQChatList" */;
+			buildPhases = (
+				18A6991F1B86D43C00C18CFE /* Sources */,
+				18A699201B86D43C00C18CFE /* Frameworks */,
+				18A699211B86D43C00C18CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYQQChatList;
+			productName = HYQQChatList;
+			productReference = 18A699231B86D43C00C18CFE /* HYQQChatList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A6993B1B86D43C00C18CFE /* HYQQChatListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A699491B86D43C00C18CFE /* Build configuration list for PBXNativeTarget "HYQQChatListTests" */;
+			buildPhases = (
+				18A699381B86D43C00C18CFE /* Sources */,
+				18A699391B86D43C00C18CFE /* Frameworks */,
+				18A6993A1B86D43C00C18CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A6993E1B86D43C00C18CFE /* PBXTargetDependency */,
+			);
+			name = HYQQChatListTests;
+			productName = HYQQChatListTests;
+			productReference = 18A6993C1B86D43C00C18CFE /* HYQQChatListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A6991B1B86D43C00C18CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.scxingdun;
+				TargetAttributes = {
+					18A699221B86D43C00C18CFE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					18A6993B1B86D43C00C18CFE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 18A699221B86D43C00C18CFE;
+					};
+				};
+			};
+			buildConfigurationList = 18A6991E1B86D43C00C18CFE /* Build configuration list for PBXProject "HYQQChatList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A6991A1B86D43C00C18CFE;
+			productRefGroup = 18A699241B86D43C00C18CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A699221B86D43C00C18CFE /* HYQQChatList */,
+				18A6993B1B86D43C00C18CFE /* HYQQChatListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A699211B86D43C00C18CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A699321B86D43C00C18CFE /* Main.storyboard in Resources */,
+				18A699371B86D43C00C18CFE /* LaunchScreen.xib in Resources */,
+				18A699341B86D43C00C18CFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A6993A1B86D43C00C18CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A6991F1B86D43C00C18CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A6992C1B86D43C00C18CFE /* AppDelegate.m in Sources */,
+				18A699291B86D43C00C18CFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A699381B86D43C00C18CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A699431B86D43C00C18CFE /* HYQQChatListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A6993E1B86D43C00C18CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A699221B86D43C00C18CFE /* HYQQChatList */;
+			targetProxy = 18A6993D1B86D43C00C18CFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A699301B86D43C00C18CFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A699311B86D43C00C18CFE /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		18A699351B86D43C00C18CFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A699361B86D43C00C18CFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A699441B86D43C00C18CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A699451B86D43C00C18CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A699471B86D43C00C18CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYQQChatList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A699481B86D43C00C18CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYQQChatList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A6994A1B86D43C00C18CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYQQChatListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYQQChatList.app/HYQQChatList";
+			};
+			name = Debug;
+		};
+		18A6994B1B86D43C00C18CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYQQChatListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYQQChatList.app/HYQQChatList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A6991E1B86D43C00C18CFE /* Build configuration list for PBXProject "HYQQChatList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A699441B86D43C00C18CFE /* Debug */,
+				18A699451B86D43C00C18CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A699461B86D43C00C18CFE /* Build configuration list for PBXNativeTarget "HYQQChatList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A699471B86D43C00C18CFE /* Debug */,
+				18A699481B86D43C00C18CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A699491B86D43C00C18CFE /* Build configuration list for PBXNativeTarget "HYQQChatListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A6994A1B86D43C00C18CFE /* Debug */,
+				18A6994B1B86D43C00C18CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A6991B1B86D43C00C18CFE /* Project object */;
+}
