@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186D8A181B87235200930FB9 /* HYFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D8A161B87235200930FB9 /* HYFriendCell.m */; };
+		186D8A191B87235200930FB9 /* HYFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D8A161B87235200930FB9 /* HYFriendCell.m */; };
+		186D8A1A1B87235200930FB9 /* HYFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D8A171B87235200930FB9 /* HYFriendCell.xib */; };
+		186D8A1B1B87235200930FB9 /* HYFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186D8A171B87235200930FB9 /* HYFriendCell.xib */; };
 		18A699291B86D43C00C18CFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699281B86D43C00C18CFE /* main.m */; };
 		18A6992C1B86D43C00C18CFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6992B1B86D43C00C18CFE /* AppDelegate.m */; };
 		18A699321B86D43C00C18CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A699301B86D43C00C18CFE /* Main.storyboard */; };
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186D8A151B87235200930FB9 /* HYFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFriendCell.h; sourceTree = "<group>"; usesTabs = 0; };
+		186D8A161B87235200930FB9 /* HYFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFriendCell.m; sourceTree = "<group>"; };
+		186D8A171B87235200930FB9 /* HYFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFriendCell.xib; sourceTree = "<group>"; };
 		18A699231B86D43C00C18CFE /* HYQQChatList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYQQChatList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A699271B86D43C00C18CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A699281B86D43C00C18CFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +83,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189511AA1B8722DE00D60979 /* Storyboard&Xib */ = {
+			isa = PBXGroup;
+			children = (
+				18A699351B86D43C00C18CFE /* LaunchScreen.xib */,
+				18A699301B86D43C00C18CFE /* Main.storyboard */,
+			);
+			name = "Storyboard&Xib";
+			sourceTree = "<group>";
+		};
+		189511AB1B8722FA00D60979 /* FriendsCell */ = {
+			isa = PBXGroup;
+			children = (
+				186D8A151B87235200930FB9 /* HYFriendCell.h */,
+				186D8A161B87235200930FB9 /* HYFriendCell.m */,
+				186D8A171B87235200930FB9 /* HYFriendCell.xib */,
+			);
+			name = FriendsCell;
+			sourceTree = "<group>";
+		};
 		18A6991A1B86D43C00C18CFE = {
 			isa = PBXGroup;
 			children = (
@@ -147,9 +173,9 @@
 		18A6994D1B86D47200C18CFE /* V */ = {
 			isa = PBXGroup;
 			children = (
+				189511AB1B8722FA00D60979 /* FriendsCell */,
+				189511AA1B8722DE00D60979 /* Storyboard&Xib */,
 				18A6995C1B86F03200C18CFE /* HeaderView */,
-				18A699351B86D43C00C18CFE /* LaunchScreen.xib */,
-				18A699301B86D43C00C18CFE /* Main.storyboard */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -265,6 +291,7 @@
 				18A699321B86D43C00C18CFE /* Main.storyboard in Resources */,
 				18A699371B86D43C00C18CFE /* LaunchScreen.xib in Resources */,
 				18A699701B8703E800C18CFE /* friends.plist in Resources */,
+				186D8A1A1B87235200930FB9 /* HYFriendCell.xib in Resources */,
 				18A699341B86D43C00C18CFE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186D8A1B1B87235200930FB9 /* HYFriendCell.xib in Resources */,
 				18A699711B8703E800C18CFE /* friends.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +317,7 @@
 				18A699521B86E03E00C18CFE /* HYListTVC.m in Sources */,
 				18A6992C1B86D43C00C18CFE /* AppDelegate.m in Sources */,
 				18A6995A1B86E0A200C18CFE /* HYFriendsModel.m in Sources */,
+				186D8A181B87235200930FB9 /* HYFriendCell.m in Sources */,
 				18A699291B86D43C00C18CFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +328,7 @@
 			files = (
 				18A6995B1B86E0A200C18CFE /* HYFriendsModel.m in Sources */,
 				18A699531B86E03E00C18CFE /* HYListTVC.m in Sources */,
+				186D8A191B87235200930FB9 /* HYFriendCell.m in Sources */,
 				18A6996E1B87028300C18CFE /* HYListHeaderView.m in Sources */,
 				18A699571B86E08700C18CFE /* HYGroupModel.m in Sources */,
 				18A699431B86D43C00C18CFE /* HYQQChatListTests.m in Sources */,

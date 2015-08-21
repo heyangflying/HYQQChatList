@@ -95,8 +95,8 @@
     HYFriendsModel *friendModel        = groupModel.friends[indexPath.row];
     cell.backgroundColor               = [UIColor clearColor];
     cell.imageView.image               = [UIImage imageNamed:@"IMG_3798"];
-    cell.imageView.layer.cornerRadius  = 20;
-    cell.imageView.layer.masksToBounds = YES;
+  //  cell.imageView.layer.cornerRadius  = 20;
+   // cell.imageView.layer.masksToBounds = YES;
     cell.textLabel.text                = friendModel.name;
     cell.detailTextLabel.text          = friendModel.intro;
     

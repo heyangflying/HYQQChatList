@@ -22,7 +22,7 @@
 + (instancetype)headerView:(UITableView *)tableView
 {
     static NSString *identifier = @"young";
-    HYListHeaderView *headerView = [tableView dequeueReusableCellWithIdentifier:identifier];
+    HYListHeaderView *headerView = (HYListHeaderView *)[tableView dequeueReusableCellWithIdentifier:identifier];
     if(!headerView){
         headerView = [[HYListHeaderView alloc]initWithResuseIdentifier:identifier];
     }
