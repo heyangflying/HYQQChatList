@@ -13,6 +13,16 @@
 		18A699341B86D43C00C18CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A699331B86D43C00C18CFE /* Images.xcassets */; };
 		18A699371B86D43C00C18CFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A699351B86D43C00C18CFE /* LaunchScreen.xib */; };
 		18A699431B86D43C00C18CFE /* HYQQChatListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699421B86D43C00C18CFE /* HYQQChatListTests.m */; };
+		18A699521B86E03E00C18CFE /* HYListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699511B86E03E00C18CFE /* HYListTVC.m */; };
+		18A699531B86E03E00C18CFE /* HYListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699511B86E03E00C18CFE /* HYListTVC.m */; };
+		18A699561B86E08700C18CFE /* HYGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699551B86E08700C18CFE /* HYGroupModel.m */; };
+		18A699571B86E08700C18CFE /* HYGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699551B86E08700C18CFE /* HYGroupModel.m */; };
+		18A6995A1B86E0A200C18CFE /* HYFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699591B86E0A200C18CFE /* HYFriendsModel.m */; };
+		18A6995B1B86E0A200C18CFE /* HYFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699591B86E0A200C18CFE /* HYFriendsModel.m */; };
+		18A6996D1B87028300C18CFE /* HYListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6996C1B87028300C18CFE /* HYListHeaderView.m */; };
+		18A6996E1B87028300C18CFE /* HYListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6996C1B87028300C18CFE /* HYListHeaderView.m */; };
+		18A699701B8703E800C18CFE /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A6996F1B8703E800C18CFE /* friends.plist */; };
+		18A699711B8703E800C18CFE /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A6996F1B8703E800C18CFE /* friends.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,15 @@
 		18A6993C1B86D43C00C18CFE /* HYQQChatListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYQQChatListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A699411B86D43C00C18CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A699421B86D43C00C18CFE /* HYQQChatListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYQQChatListTests.m; sourceTree = "<group>"; };
+		18A699501B86E03E00C18CFE /* HYListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYListTVC.h; sourceTree = "<group>"; };
+		18A699511B86E03E00C18CFE /* HYListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYListTVC.m; sourceTree = "<group>"; };
+		18A699541B86E08700C18CFE /* HYGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGroupModel.h; sourceTree = "<group>"; };
+		18A699551B86E08700C18CFE /* HYGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGroupModel.m; sourceTree = "<group>"; };
+		18A699581B86E0A200C18CFE /* HYFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFriendsModel.h; sourceTree = "<group>"; };
+		18A699591B86E0A200C18CFE /* HYFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFriendsModel.m; sourceTree = "<group>"; };
+		18A6996B1B87028300C18CFE /* HYListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYListHeaderView.h; sourceTree = "<group>"; };
+		18A6996C1B87028300C18CFE /* HYListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYListHeaderView.m; sourceTree = "<group>"; };
+		18A6996F1B8703E800C18CFE /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +135,11 @@
 		18A6994C1B86D46300C18CFE /* M */ = {
 			isa = PBXGroup;
 			children = (
+				18A6996F1B8703E800C18CFE /* friends.plist */,
+				18A699541B86E08700C18CFE /* HYGroupModel.h */,
+				18A699551B86E08700C18CFE /* HYGroupModel.m */,
+				18A699581B86E0A200C18CFE /* HYFriendsModel.h */,
+				18A699591B86E0A200C18CFE /* HYFriendsModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -123,6 +147,9 @@
 		18A6994D1B86D47200C18CFE /* V */ = {
 			isa = PBXGroup;
 			children = (
+				18A6995C1B86F03200C18CFE /* HeaderView */,
+				18A699351B86D43C00C18CFE /* LaunchScreen.xib */,
+				18A699301B86D43C00C18CFE /* Main.storyboard */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -130,6 +157,8 @@
 		18A6994E1B86D47E00C18CFE /* C */ = {
 			isa = PBXGroup;
 			children = (
+				18A699501B86E03E00C18CFE /* HYListTVC.h */,
+				18A699511B86E03E00C18CFE /* HYListTVC.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -139,11 +168,18 @@
 			children = (
 				18A6992A1B86D43C00C18CFE /* AppDelegate.h */,
 				18A6992B1B86D43C00C18CFE /* AppDelegate.m */,
-				18A699301B86D43C00C18CFE /* Main.storyboard */,
 				18A699331B86D43C00C18CFE /* Images.xcassets */,
-				18A699351B86D43C00C18CFE /* LaunchScreen.xib */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		18A6995C1B86F03200C18CFE /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				18A6996B1B87028300C18CFE /* HYListHeaderView.h */,
+				18A6996C1B87028300C18CFE /* HYListHeaderView.m */,
+			);
+			name = HeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +264,7 @@
 			files = (
 				18A699321B86D43C00C18CFE /* Main.storyboard in Resources */,
 				18A699371B86D43C00C18CFE /* LaunchScreen.xib in Resources */,
+				18A699701B8703E800C18CFE /* friends.plist in Resources */,
 				18A699341B86D43C00C18CFE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A699711B8703E800C18CFE /* friends.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A6996D1B87028300C18CFE /* HYListHeaderView.m in Sources */,
+				18A699561B86E08700C18CFE /* HYGroupModel.m in Sources */,
+				18A699521B86E03E00C18CFE /* HYListTVC.m in Sources */,
 				18A6992C1B86D43C00C18CFE /* AppDelegate.m in Sources */,
+				18A6995A1B86E0A200C18CFE /* HYFriendsModel.m in Sources */,
 				18A699291B86D43C00C18CFE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A6995B1B86E0A200C18CFE /* HYFriendsModel.m in Sources */,
+				18A699531B86E03E00C18CFE /* HYListTVC.m in Sources */,
+				18A6996E1B87028300C18CFE /* HYListHeaderView.m in Sources */,
+				18A699571B86E08700C18CFE /* HYGroupModel.m in Sources */,
 				18A699431B86D43C00C18CFE /* HYQQChatListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +490,7 @@
 				18A699481B86D43C00C18CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A699491B86D43C00C18CFE /* Build configuration list for PBXNativeTarget "HYQQChatListTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +499,7 @@
 				18A6994B1B86D43C00C18CFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
