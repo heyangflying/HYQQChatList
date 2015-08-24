@@ -15,7 +15,6 @@
 		18A6992C1B86D43C00C18CFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A6992B1B86D43C00C18CFE /* AppDelegate.m */; };
 		18A699321B86D43C00C18CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A699301B86D43C00C18CFE /* Main.storyboard */; };
 		18A699341B86D43C00C18CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A699331B86D43C00C18CFE /* Images.xcassets */; };
-		18A699371B86D43C00C18CFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A699351B86D43C00C18CFE /* LaunchScreen.xib */; };
 		18A699431B86D43C00C18CFE /* HYQQChatListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699421B86D43C00C18CFE /* HYQQChatListTests.m */; };
 		18A699521B86E03E00C18CFE /* HYListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699511B86E03E00C18CFE /* HYListTVC.m */; };
 		18A699531B86E03E00C18CFE /* HYListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A699511B86E03E00C18CFE /* HYListTVC.m */; };
@@ -50,7 +49,6 @@
 		18A6992B1B86D43C00C18CFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		18A699311B86D43C00C18CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A699331B86D43C00C18CFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
-		18A699361B86D43C00C18CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18A6993C1B86D43C00C18CFE /* HYQQChatListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYQQChatListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A699411B86D43C00C18CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A699421B86D43C00C18CFE /* HYQQChatListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYQQChatListTests.m; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 		189511AA1B8722DE00D60979 /* Storyboard&Xib */ = {
 			isa = PBXGroup;
 			children = (
-				18A699351B86D43C00C18CFE /* LaunchScreen.xib */,
 				18A699301B86D43C00C18CFE /* Main.storyboard */,
 			);
 			name = "Storyboard&Xib";
@@ -289,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A699321B86D43C00C18CFE /* Main.storyboard in Resources */,
-				18A699371B86D43C00C18CFE /* LaunchScreen.xib in Resources */,
 				18A699701B8703E800C18CFE /* friends.plist in Resources */,
 				186D8A1A1B87235200930FB9 /* HYFriendCell.xib in Resources */,
 				18A699341B86D43C00C18CFE /* Images.xcassets in Resources */,
@@ -352,15 +348,6 @@
 				18A699311B86D43C00C18CFE /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		18A699351B86D43C00C18CFE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18A699361B86D43C00C18CFE /* Base */,
-			);
-			name = LaunchScreen.xib;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -451,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HYQQChatList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -461,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HYQQChatList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
