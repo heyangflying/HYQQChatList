@@ -34,7 +34,7 @@
         
         // 分组栏按钮
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        btn.titleLabel.font = [UIFont systemFontOfSize:13.0];
+        btn.titleLabel.font = [UIFont systemFontOfSize:15.0];
         [btn setBackgroundImage:[UIImage imageNamed:@"header_bg"] forState:UIControlStateNormal];
         [btn setBackgroundImage:[UIImage imageNamed:@"header_bg_highlighted"] forState:UIControlStateHighlighted];
         [btn setImage:[UIImage imageNamed:@"arrow"] forState:UIControlStateNormal];
@@ -50,7 +50,7 @@
         
         //显示在线人数
         UILabel *lineLabel = [[UILabel alloc]init];
-        lineLabel.font = [UIFont systemFontOfSize:13.0];
+        lineLabel.font = [UIFont systemFontOfSize:15.0];
         lineLabel.textAlignment = NSTextAlignmentCenter;
         _lineLabel = lineLabel;
         [self addSubview:self.lineLabel];
