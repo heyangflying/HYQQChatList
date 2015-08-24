@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class HYFriendsModel;
 @interface HYFriendCell : UITableViewCell
+
+@property (nonatomic,strong) HYFriendsModel *model;
+@property (nonatomic,strong) UIImage *iconImage;
 
 @end

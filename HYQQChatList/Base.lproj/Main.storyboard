@@ -4,14 +4,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--ListTVC-->
+        <!--好友列表-->
         <scene sceneID="FcE-7U-IGA">
             <objects>
                 <tableViewController id="cpQ-v2-yY6" customClass="HYListTVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="iJo-Ih-VWA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="MPi-5H-Fbb">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -25,7 +25,7 @@
                             <outlet property="delegate" destination="cpQ-v2-yY6" id="Fdk-dX-MiL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="JBJ-Km-jG9"/>
+                    <navigationItem key="navigationItem" title="好友列表" id="JBJ-Km-jG9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylY-bB-Duw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

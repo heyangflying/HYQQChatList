@@ -8,8 +8,10 @@
 
 #import "HYListTVC.h"
 #import "HYGroupModel.h"
+#import "HYFriendCell.h"
 #import "HYListHeaderView.h"
 #import "HYFriendsModel.h"
+
 
 @interface HYListTVC ()<HYHeaderViewDeleagte>
 @property (nonatomic,strong) NSArray *dataArray;
@@ -43,10 +45,15 @@
     [self.tableView setTableFooterView:view];
 }
 
+static NSString *identifier = @"YounG";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     [self clipExtraCellLine:self.tableView];
+    
+    [self.tableView registerNib:[UINib nibWithNibName:@"HYFriendCell" bundle:nil] forCellReuseIdentifier:identifier];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,7 +67,7 @@
 //#warning Potentially incomplete method implementation.
     // Return the number of sections.
     
-    NSLog(@"%d",self.dataArray.count);
+   
     
     return self.dataArray.count;
     
@@ -79,28 +86,25 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
    
-    static NSString *identifier = @"heyang";
+  
     
-    NSLog(@"123");
+   
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    HYFriendCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
     
     if(!cell){
         
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
+        cell = [[HYFriendCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
         
     }
+        HYGroupModel *groupModel           = self.dataArray[indexPath.section];
+        HYFriendsModel *friendModel        = groupModel.friends[indexPath.row];
     
-    HYGroupModel *groupModel           = self.dataArray[indexPath.section];
-    HYFriendsModel *friendModel        = groupModel.friends[indexPath.row];
-    cell.backgroundColor               = [UIColor clearColor];
-    cell.imageView.image               = [UIImage imageNamed:@"IMG_3798"];
-  //  cell.imageView.layer.cornerRadius  = 20;
-   // cell.imageView.layer.masksToBounds = YES;
-    cell.textLabel.text                = friendModel.name;
-    cell.detailTextLabel.text          = friendModel.intro;
+   
+        cell.model = friendModel;
     
-    return cell;
+
+        return cell;
     
 }
 #pragma mark - UITableView delegate
@@ -108,7 +112,7 @@
     HYListHeaderView *headerView = [HYListHeaderView headerView:tableView];
     headerView.delegate = self;
     headerView.groupModel = self.dataArray[section];
-    NSLog(@"%@",self.dataArray[section]);
+   
     return headerView;
 }
 -(void)HYDidSelectedView
