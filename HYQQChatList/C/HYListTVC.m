@@ -14,14 +14,16 @@
 
 
 @interface HYListTVC ()<HYHeaderViewDeleagte>
+
 @property (nonatomic,strong) NSArray *dataArray;
+
 @end
 
 @implementation HYListTVC
-
 - (NSArray *)dataArray{
     if(!_dataArray){
-        
+               
+
         NSString *path = [[NSBundle mainBundle] pathForResource:@"friends.plist" ofType:nil];
        
         NSArray *array = [NSArray arrayWithContentsOfFile:path];
@@ -58,7 +60,6 @@ static NSString *identifier = @"YounG";
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 //#pragma mark - Table view data source
@@ -92,18 +93,11 @@ static NSString *identifier = @"YounG";
     
     HYFriendCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
     
-    if(!cell){
-        
-        cell = [[HYFriendCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier];
-        
-    }
         HYGroupModel *groupModel           = self.dataArray[indexPath.section];
         HYFriendsModel *friendModel        = groupModel.friends[indexPath.row];
     
-   
         cell.model = friendModel;
     
-
         return cell;
     
 }

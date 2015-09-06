@@ -9,6 +9,7 @@
 #import "HYFriendsModel.h"
 
 @implementation HYFriendsModel
+
 - (instancetype)initWithDic:(NSDictionary *)dic
 {
     if(self = [super init]){
@@ -16,8 +17,10 @@
     }
     return self;
 }
+
 + (instancetype)friendWithDic:(NSDictionary *)dic
 {
     return [[self alloc]initWithDic:dic];
 }
+
 @end
